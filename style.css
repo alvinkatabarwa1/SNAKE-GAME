@@ -1,0 +1,74 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+
+.heading {
+    
+
+     /* Center the element horizontally and vertically */
+     position: absolute;
+     top: -5%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+
+.actualrules {
+    
+
+    /* Center the element horizontally and vertically */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.Rules {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+
+     /* Center the element horizontally and vertically */
+     position: absolute;
+     top: 40%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+
+
+.grid{
+    width :200px;
+    height:200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px
+}
+
+.snake {
+    background-color: rgba(18, 152, 0, 0.888);
+
+
+}
+
+.apple{background-color: red;
+   
+
+}
